@@ -1,8 +1,8 @@
 
 resource "aws_instance" "MyFirstInstnace" {
   count         = 1
-  ami           = "ami-0b0ea68c435eb488d"
-  instance_type = "t2.micro"
+  ami           = var.AMI_ID
+  instance_type = var.INSTANCE_TYPE
 
   tags = {
     Name = "demoinstnce-${count.index}"

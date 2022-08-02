@@ -1,6 +1,6 @@
 provider "aws" {
-    version = "4.24.0"
-    access_key = "AKIAUR454RPNAMEA3OHR"
-    secret_key = "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"
-    region     = "us-east-1"
+    version = var.AWS_PLUGIN_VERSION
+    access_key = var.AWS_ACCESS_KEY
+    secret_key = var.AWS_SECRET_KEY
+    region     = var.AWS_REGION
 }
