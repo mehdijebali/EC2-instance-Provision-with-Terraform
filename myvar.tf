@@ -1,4 +1,19 @@
-variable "myfirstvar" {
-    type = string
-    default = "Hello! Welcome Terraform"
+variable "AWS_ACCESS_KEY" {}
+
+variable "AWS_SECRET_KEY" {}
+
+variable "AWS_REGION" {
+default = "us-east-1"
+}
+
+variable "AMI_ID" {
+default = "ami-0b0ea68c435eb488d"
+}
+
+variable "INSTANCE_TYPE" {
+default = "t2.micro"  
+}
+
+variable "AWS_PLUGIN_VERSION" {
+default = "4.24.0" 
 }
