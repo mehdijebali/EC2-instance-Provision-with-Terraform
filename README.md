@@ -11,4 +11,4 @@ The working directory must be initialized before terraform can perform any opera
 We can determine the desired state of all the resources declared by terraform configuration files. The command `terraform plan` presents a description of the changes necessary to achieve the desired state. It does not perform any actual changes to real world infrastructure objects. 
 ## Apply changes
 With the help of the command `terraform apply`, we can apply the EC2 instance creation in AWS.
-![](Screenshot from 2022-08-01 16-01-54.png) 
+![](./Screenshot%20from%202022-08-01%2016-01-54.png) 
