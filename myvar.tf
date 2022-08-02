@@ -14,6 +14,3 @@ variable "INSTANCE_TYPE" {
 default = "t2.micro"  
 }
 
-variable "AWS_PLUGIN_VERSION" {
-default = "4.24.0" 
-}
